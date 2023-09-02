@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Task Assignment Form</h1>
+    <BR><BR>
+    <div class="center-box">
+        <div class="task-form">
+            <h2><center>Assign a Task</center></h2>
+          
+            <div class="input-container">
+                <label for="username">User Name:</label>
+                <input type="text" id="username" placeholder="Enter user name">
+            </div>
+
+            <div class="input-container">
+                <label for="taskname">Task Name:</label>
+                <input type="text" id="taskname" placeholder="Enter task name">
+            </div>
+
+            <div class="input-container">
+                <label for="taskdesc">Task Description:</label>
+                <input type="text" id="taskdesc" placeholder="Enter task description">
+            </div>
+
+            <div class="input-container">
+                <label for="assignee">Assignee Name:</label>
+                <input type="text" id="assignee" placeholder="Enter assignee name">
+            </div>
+            
+            <button id="assign-button">Assign</button>
+        </div>
+    </div>
+    <BR><BR><BR>
+    <h1>PENDING TASK LIST</h1>
+
+
+    <table id="task-table">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Task Name</th>
+                <th>Task Description</th>
+                <th>Assignee Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Task items will be added dynamically here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
